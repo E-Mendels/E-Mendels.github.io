@@ -6,7 +6,27 @@
     </head>
     <body>
         <h1>Mes projets en NSI</h1>
-        <h2>Nombre normaux et consatante de Champernowne</h2>
+        <h2>Nombre normaux, consatante de Champernowne et pi</h2>
+        <p>Mon professeur m'avais doné une bonne occupation durant ces vancces d'Automne... J'ai du travaillé sur la constante de champernowne et sur les nombre normaux. Ma question a été : est ce que pi est un nombre normal en base 10?</p>
+        <h3>La constante de Champernowne</h3>
+        <p>C'est une constante qui est defini de la maniere suivante: 0,123456789101112131415... bref vous avez compris qu'on met tout les nombre de 1 a l'infini après 0, et on obtient la constante. On sait que cette constante est un nombre normal donc elle permettait de tester le code. </p>
+        <h3>pi</h3>
+        <p>pi est la valeur de la demi circonferance d'un cercle de rayon 1. Ce nombre permet de nombreuse operation mathematique sur les cercles et les angles</p>
+        <h3>Les nombre normaux</h3>
+        <p>Pas de question debile tel que: "Bah c'est pas un nombre reel?". </p>
+        <p>En effet un nombre normal est un truc beaucoup plus compliqué. C'est un ombre dont la decimale comporte le meme nombre a la même fréquance un chiffre ou une suite de chiffre. Par exemple, si on prend le nombre 0,1234567809 , il est normal car on trouve une fois chaque nombre dans la decimale. Mais si on avais pris le meme nombre sans le 9 a la fin, alors le nombre ne serait plus normal, en effet, le 9 srait present 0 fois contrairement aux autre present une fois. On en deduit une fréquance qui nous permet de dire que dans le cas 1 le nombre est normal et dans le cas deux les nombre ne l'est pas </p>
+        <h3>Le code</h3>
+        <p>Donc la base de mon code se deroule en trois grande etapes: </p>
+        <ol>
+            <li>Compter le nombre de fois qu’on rencontre le chiffre dans le nombre</li>
+            <li>Le diviser par le nombre total</li>
+            <li>Si chaque fréquence est équivalente alors c’est un nombre normal</li>
+        </ol>
+        <p>Vous pouvez voir mon code ici:</p>
+        <img scr="code_algo_nb_normaux" alt="le code"/>
+        <h3>Le resultat</h3>
+        <p>Le graphique ci dessous ilustre ce qu'on obtient comme probabilité, si le nombre est un nombre normal, alors toute les barres de l'histogramme font la meme hauteur. On observe le diagramme suivant en utilisant le code sur pi grâce a la bibliothèque matplotlib :</p>
+        <img scr="resultat_pi_nb_normal" alt="le resultat"/>
         <h2>Alogorithme de racherche</h2>
         <h3>La recherche de l'informaticien pas hyper doué et bien flemmard, alias la recherche naïve</h3>
         <h3>La recherche 2.0</h3>
