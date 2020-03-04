@@ -1,0 +1,21 @@
+*{
+    font-family:cursive; 
+}
+
+body{
+    background-color: #EFEFFF;
+}
+
+h1{
+    color: #942222;
+    font-size: 30px
+}
+
+h2, h3, h4{
+    color: #25908D;
+}
+
+p,li,a{
+    color: #0E004A;
+    font-size: 15px;
+}
