@@ -3,19 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Projet Elisa MENDELS carthographie</title>
+        <link href="../../css/style.css" rel="stylesheet" type="text/css">
 	</head>
     <body>
         <h1>Le taux d'abstention aux élections présidentielles françaises de 1965 à 2007</h1>
         <p>Projet de cartographie interractive d'Elisa MENDELS 1G9</p>
+        
         <h2>Présentation générale</h2>
         <p>Ce projet vise à montrer les abstentions aux éléctions présidentielles par departement.</p>
+        
         <h2>La base de données</h2>
         <p>Nous avons utiliser la base de donné du gouvernement français: data.gouv:
         <ul>
             <li>les information sur les éléctions (<a href="https://www.data.gouv.fr/fr/datasets/elections-presidentielles-1965-2012-1/">ici</a>).  Nous avons utiliser les formats exels (je n'avais pas vu les fichiers CSV) que nous avons reformater à la main (enlever les données sur les resultats de l'élection). </li>
             <li>les coordonnées des préfectures (<a href="https://www.data.gouv.fr/fr/datasets/hotels-de-prefectures/">ici</a>) pour avoir par département une unique coordonnée, soit celle de la préfecture</li>
         </ul>
+        Comme nous avons modifié les données "à la main", voici les tables finales sur lequeles le programme s'execute : <a href="donnee.zip">le dossier contenant toutes les tables</a>
         </p>
+    
         <h2>Demarche associée au projet</h2>
         <p>J'ai souhaité répondre à une question:
         <ul>
@@ -30,20 +35,27 @@
             <li>il n'y a pas tout qui marceh comme on veut out le temps</li>
             <li>l'estimation du temps est souvent asser biaisé par l'ignorance des choses sur lequelles on va travaillé</li>
         </ul></p>
-        <h2>Explication d code</h2>
-        <a href="">Le code en lui même</a>
-        
-        
 
-
-
-
-
-
-
+        <h2>Explication du code</h2>
+        <a href="programme_deux_carte.py.zip">Le code en lui même</a>
+        <a href="../images/import_module_diap1.png">Importation des module</a>
+        <a href="../images/gestion_formatage_donnee_diap2.png">Formatage des dictionnaire</a>
+        <a href="../images/dico_avant_formatage_diap3.png">Dictionnaire avant formatage</a>
+        <a href="../images/dico_apres_formatage_diap4.png">Dictionnaire apres formatage</a>
+        <a href="../images/calcul_dico_diap5.png">Calculs sur le dictionnaire</a>
+        <a href="../images/dico_apres_calcul_diap6.png">Dictionnaire apres calculs</a>
+        <a href="../images/ajout_coord_donnee_diap7.png">Ajout des coordonnées au dictionnaire</a>
+        <a href="../images/dico_apres_ajout_coord_diap8.png">Dcictionnaire après l'ajout des coordonnées</a>
+        <a href="../images/changement_archi_bibli_diap9.png">Changement d'architecture</a>
+        <a href="../images/dico_apres_changement_archi_diap10.png">Dictionnaire pares le changement d'architecture</a>
+        <a href="../images/code_folium_diap11.png">LEs code folium our générer les cartes</a>
 
         <h2>Le resultat</h2>
-        <a href="" >Le projet</a>
-        <p>Grace à:</p>
+        <a href="abtention.html" >Les abstentions</a>
+        <a href="pourcentageAbstention.html">Les pourcentages d'abstention</a>
+
+        <h2>Quitter cette page</h2>
+        <a href="../../../index.html">L'acceuil</a>
+        <a href="../../source/projet.html">Les autres projets</a>
     </body>
 </html>
