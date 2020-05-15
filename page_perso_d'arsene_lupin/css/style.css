@@ -25,6 +25,11 @@ h4{
     color:#45A7A4
 }
 
-p,li,a{
+p,li{
     color: #0E004A;
+}
+
+
+a{
+    color: darkmagenta;
 }
